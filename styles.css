@@ -1,0 +1,53 @@
+html {
+    background: #007FFF;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #F0F8FF;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+            max-height: 100vh;
+    padding: 2em 2em 4em;
+}
+
+h1 {
+    color: #0E3386;
+    font-weight: 100;
+    line-height: 1.3;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
+
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
